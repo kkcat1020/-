@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>開発準備中</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: "Arial", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      /* 水玉背景 */
+      background-color: #a0d8f1; /* 水色系のベース */
+      background-image: radial-gradient(circle, #ffffff 10%, transparent 10%);
+      background-size: 50px 50px; /* ドットの間隔と大きさ */
+    }
+
+    .container {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 60px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #666;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>開発準備中</h1>
+    <p>このページは現在開発中です。しばらくお待ちください。</p>
+    <div class="footer">製作者: kakeru</div>
+  </div>
+</body>
+</html>
